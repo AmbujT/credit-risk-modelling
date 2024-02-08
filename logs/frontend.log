@@ -1,0 +1,1625 @@
+2022-12-27 01:08:06,497:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:08:18,903:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:08:18,922:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 01:08:31,492:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:08:31,504:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 01:08:31,538:streamlit_frontend.py:run:INFO:Attempting API call:
+2022-12-27 01:08:32,047:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Logistic Regression, 
+Credit Card Default probability: 15.774575000930366, 
+Model pred time: 0.005196400001295842, 
+total run time: 0.5027285000032862:
+2022-12-27 01:09:24,551:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:09:25,153:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:09:25,185:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 01:09:30,259:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:09:30,278:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 01:09:32,339:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:09:32,358:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 01:09:34,171:streamlit_frontend.py:run:INFO:Attempting API call:
+2022-12-27 01:09:39,157:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 56, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-12-27 01:18:02,855:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 01:18:02,876:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 01:18:04,748:streamlit_frontend.py:run:INFO:Attempting API call:
+2022-12-27 01:18:11,753:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 56, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-12-27 17:54:18,748:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:55:48,656:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:56:08,911:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:56:08,928:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 17:58:41,701:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:58:52,417:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:58:52,440:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 17:58:52,475:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2022-12-27 17:59:01,689:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:59:02,158:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 17:59:02,176:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 17:59:02,565:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2022-12-27 18:02:05,557:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:02:05,579:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 18:02:05,962:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2022-12-27 18:02:07,585:streamlit_frontend.py:run:INFO:Attempting API call:
+2022-12-27 18:02:12,980:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 64, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-12-27 18:05:21,427:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:16,497:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:30,156:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:30,176:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 18:06:30,517:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2022-12-27 18:06:44,337:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:44,643:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:44,662:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 18:06:44,690:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2022-12-27 18:06:57,793:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:58,150:streamlit_frontend.py:run:INFO:Session started:
+2022-12-27 18:06:58,169:streamlit_frontend.py:run:INFO:User data uploaded:
+2022-12-27 18:06:58,580:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2023-02-01 12:09:49,724:streamlit_frontend.py:run:INFO:Session started:
+2023-02-01 12:10:45,788:streamlit_frontend.py:run:INFO:Session started:
+2023-02-01 12:10:45,794:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-02-01 12:10:45,882:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-02-01 12:11:17,330:streamlit_frontend.py:run:INFO:Session started:
+2023-02-01 12:11:17,336:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-02-01 12:11:17,342:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-02-01 12:11:32,337:streamlit_frontend.py:run:INFO:Session started:
+2023-02-01 12:11:32,344:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-02-01 12:11:32,352:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-02-01 12:11:32,357:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-02-01 12:11:32,551:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 67, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-02-01 12:13:26,186:streamlit_frontend.py:run:INFO:Session started:
+2023-02-01 12:13:26,349:streamlit_frontend.py:run:INFO:Session started:
+2023-02-01 12:13:26,353:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-02-01 12:13:26,451:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2023-07-13 16:50:55,899:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:51:50,518:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:51:50,528:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:51:50,578:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:52:02,019:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:52:02,030:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:52:02,046:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:52:11,982:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:52:11,993:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:52:12,013:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:53:19,866:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:53:19,874:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:53:19,888:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:53:19,893:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 16:53:20,108:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 16:57:20,299:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:57:20,307:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:57:20,326:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:57:20,332:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 16:57:20,451:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 16:57:28,220:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:57:28,233:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:57:28,250:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:57:28,255:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 16:57:28,298:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 16:57:33,182:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:57:33,198:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:57:33,216:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:57:38,674:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 16:57:38,689:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 16:57:38,705:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 16:57:38,711:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 16:57:38,762:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:02:07,757:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:02:07,765:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:02:07,780:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:02:07,791:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:02:07,916:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:02:18,905:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:02:18,914:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:02:18,929:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:02:18,936:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:02:18,999:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:06:44,103:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:06:44,110:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:06:44,126:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:06:44,135:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:06:44,242:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:06:46,269:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:06:46,276:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:06:46,291:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:06:46,299:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:06:46,342:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:06:48,713:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:06:48,723:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:06:48,738:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:06:48,742:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:06:48,775:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:08:03,915:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:08:03,922:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:08:03,936:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:08:03,941:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:08:04,029:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:08:06,838:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:08:06,850:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:08:06,865:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:08:06,872:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:08:06,909:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:10:13,691:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:10:13,698:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:10:13,710:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:10:17,042:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:10:17,050:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:10:17,063:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:10:17,067:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:10:17,241:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:11:23,641:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:11:23,818:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:11:23,830:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:11:23,838:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:11:26,239:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:11:26,245:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:11:26,257:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:11:26,267:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:11:26,318:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:11:27,527:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:11:27,537:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:11:27,549:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:11:27,554:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:11:27,599:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:13:31,289:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:13:31,296:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:13:31,317:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:13:31,322:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:13:31,559:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:13:33,497:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:13:33,508:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:13:33,523:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:13:33,529:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:13:33,571:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:14:01,702:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:14:01,709:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:14:01,724:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:14:02,914:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:14:02,924:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:14:02,938:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:14:02,944:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:14:03,297:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:14:09,552:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:14:09,571:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:14:09,586:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:14:09,591:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:14:09,867:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:17:11,072:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:17:11,081:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:17:11,106:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:17:11,120:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:17:13,893:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:27:09,675:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:27:09,682:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:27:09,699:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:27:09,708:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:27:10,348:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:27:13,361:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:27:13,372:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:27:13,384:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:27:13,389:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:27:13,614:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:29:56,916:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:29:56,923:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:29:56,938:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:29:56,946:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:29:57,732:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:30:21,111:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:30:21,121:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:30:21,138:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:30:21,144:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:30:21,737:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:42:11,553:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:42:11,563:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:42:11,578:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:42:11,583:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:42:12,428:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:42:38,403:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:42:38,411:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:42:38,427:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:42:38,439:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:42:38,974:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:45:32,766:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:45:32,778:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:45:32,796:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:45:32,802:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:45:33,245:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:45:37,994:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:45:38,009:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:45:38,025:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:45:38,031:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:45:38,283:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:48:29,247:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:48:29,253:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:48:29,271:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:48:30,294:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:48:30,303:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:48:30,317:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:48:30,324:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:48:30,358:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:49:38,765:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:49:38,771:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:49:38,785:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:49:38,794:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:49:38,835:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:50:26,219:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:50:26,228:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:50:26,246:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:50:26,257:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:50:26,654:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:51:44,694:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:51:44,704:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:51:44,722:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:51:44,727:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:51:47,954:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:58:55,982:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:58:55,990:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:58:56,009:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:58:56,015:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:58:56,377:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 17:59:03,728:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 17:59:03,748:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 17:59:03,765:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 17:59:03,773:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 17:59:04,060:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 18:00:51,067:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:00:51,077:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:00:51,093:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:00:51,105:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:00:52,998:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 18:01:38,799:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:01:38,807:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:01:38,825:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:01:38,831:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:01:42,359:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 18:03:13,230:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:03:13,237:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:03:13,248:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:03:13,254:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:03:13,745:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 18:06:48,178:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:06:48,186:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:06:48,202:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:06:48,211:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:06:48,732:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 68, in run
+    response = requests.post("http://127.0.0.1:8000/predict", json=data).json()
+  File "C:\Users\Abraham Audu\Documents\Py-Self-Learn\credit_card_default_prediction\venv\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-07-13 18:15:34,217:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:15:34,231:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:15:34,251:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:15:34,257:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:15:35,525:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Logistic Regression, 
+Credit Card Default probability: 53.2873255815253, 
+Model pred time: 0.0003756000005523674, 
+total run time: 1.2648893000005046:
+2023-07-13 18:15:56,657:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:15:56,666:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:15:56,681:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:15:58,344:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:15:58,354:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:15:58,365:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:15:58,370:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:15:58,778:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Neural Network, 
+Credit Card Default probability: 91.9037520898361, 
+Model pred time: 0.000385600003937725, 
+total run time: 0.40414790000068024:
+2023-07-13 18:16:32,595:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:16:32,603:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:16:32,621:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:16:37,324:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:16:37,335:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:16:37,364:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:16:37,370:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:16:37,913:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Random Forest, 
+Credit Card Default probability: 89.0, 
+Model pred time: 0.024411000005784445, 
+total run time: 0.5393624999996973:
+2023-07-13 18:16:50,729:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:16:50,735:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:16:50,745:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:16:52,780:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:16:52,789:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:16:52,802:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:16:52,808:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:16:52,861:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Support Vector Machine, 
+Credit Card Default probability: 1.0, 
+Model pred time: 0.0037535999945248477, 
+total run time: 0.0493062999958056:
+2023-07-13 18:17:02,602:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:17:02,610:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:17:02,629:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:17:04,189:streamlit_frontend.py:run:INFO:Session started:
+2023-07-13 18:17:04,198:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-07-13 18:17:04,213:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-07-13 18:17:04,221:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-07-13 18:17:04,264:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Logistic Regression, 
+Credit Card Default probability: 53.2873255815253, 
+Model pred time: 0.000545599999895785, 
+total run time: 0.03909330000169575:
+2023-09-24 15:58:10,969:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 15:58:53,288:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 15:58:53,290:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 15:58:53,296:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 15:58:55,932:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 15:58:55,933:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 15:58:55,936:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 15:58:55,938:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-24 15:58:56,015:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Logistic Regression, 
+Credit Card Default probability: 53.2873255815253, 
+Model pred time: 0.00012460000107239466, 
+total run time: 0.07585250000011001:
+2023-09-24 15:59:08,994:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 15:59:08,995:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 15:59:08,999:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 15:59:10,353:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 15:59:10,355:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 15:59:10,359:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 15:59:10,360:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-24 15:59:10,389:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Neural Network, 
+Credit Card Default probability: 91.9037520898361, 
+Model pred time: 0.00013180000132706482, 
+total run time: 0.028071299999282928:
+2023-09-24 16:06:00,077:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 16:06:00,079:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 16:06:00,083:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 16:06:12,396:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 16:06:12,398:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 16:06:12,401:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 16:06:12,402:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-24 16:06:12,565:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API:
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 75, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\runtime\metrics_util.py", line 311, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\elements\alert.py", line 158, in success
+    return self.dg._enqueue("alert", alert_proto)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\delta_generator.py", line 531, in _enqueue
+    _enqueue_message(msg)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\delta_generator.py", line 962, in _enqueue_message
+    ctx.enqueue(msg)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\runtime\scriptrunner\script_run_context.py", line 107, in enqueue
+    self._enqueue(msg)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 335, in _enqueue_forward_msg
+    self._maybe_handle_execution_control_request()
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 371, in _maybe_handle_execution_control_request
+    raise RerunException(request.rerun_data)
+streamlit.runtime.scriptrunner.script_runner.RerunException: RerunData(query_string='', widget_states=widgets {
+  id: "$$GENERATED_WIDGET_KEY-d37199ff5feb1ea2be87759bb6043330-None"
+  file_uploader_state_value {
+    max_file_id: 1
+    uploaded_file_info {
+      id: 1
+      name: "sample_user_data.csv"
+      size: 303
+    }
+  }
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-137902d3ea22d09a462a2211e0c8f9ab-None"
+  int_value: 2
+}
+widgets {
+  id: "$$GENERATED_WIDGET_KEY-d9285e0110b7eafc094af9ac32648eea-None"
+  trigger_value: true
+}
+, page_script_hash='fea1a37f6bf522663b811347e6dd15eb', page_name='')
+2023-09-24 16:06:21,034:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 16:06:21,036:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 16:06:21,040:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 16:06:22,411:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 16:06:22,412:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 16:06:22,415:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 16:06:22,417:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-24 16:06:22,441:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Support Vector Machine, 
+Credit Card Default probability: 1.0, 
+Model pred time: 0.0008717000000615371, 
+total run time: 0.021329100000002654:
+2023-09-24 16:06:28,474:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 16:06:28,476:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 16:06:28,480:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 16:06:29,621:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 16:06:29,623:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-24 16:06:29,627:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-24 16:06:29,628:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-24 16:06:29,698:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Random Forest, 
+Credit Card Default probability: 89.0, 
+Model pred time: 0.003455699999904027, 
+total run time: 0.0683112999995501:
+2023-09-24 20:39:43,877:upload_validator.py:validate:ERROR:No column 'ID' in uploaded data:
+2023-09-24 21:05:58,729:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 21:08:16,425:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 21:14:24,513:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 21:14:59,849:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 21:15:53,491:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 21:20:40,898:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 20:40:42,878:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 20:41:44,005:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 20:43:00,515:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:24:35,805:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:26:06,210:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:30:33,438:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:30:33,497:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:31:51,377:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:34:17,931:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:38:23,207:upload_validator.py:validate:ERROR:No column 'ID' in uploaded data:
+2023-09-24 21:38:23,247:upload_validator.py:validate:ERROR:No column 'ID' in uploaded data:
+2023-09-24 21:38:35,953:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 21:38:35,955:upload_validator.py:validate:ERROR:No column 'ID' in uploaded data:
+2023-09-24 23:02:45,553:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected 'int64':
+2023-09-24 23:03:33,260:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected 'int64':
+2023-09-24 23:04:05,980:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected ''int64'':
+2023-09-24 23:04:45,592:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 23:05:19,778:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 23:18:25,569:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 23:18:25,613:upload_validator.py:validate:ERROR:'ID' column data type does not match required data type. Expected int64:
+2023-09-24 23:27:12,459:upload_validator.py:validate:ERROR:No column 'AGE' in uploaded data:
+2023-09-24 23:27:12,462:upload_validator.py:validate:ERROR:No column 'AGE' in uploaded data:
+2023-09-24 23:27:29,585:upload_validator.py:validate:ERROR:'AGE' column data type does not match required data type. Expected int64:
+2023-09-24 23:27:29,642:upload_validator.py:validate:ERROR:'AGE' column data type does not match required data type. Expected int64:
+2023-09-24 23:29:30,837:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 23:29:30,839:upload_validator.py:validate:ERROR:No column 'AGE' in uploaded data:
+2023-09-24 23:29:30,841:upload_validator.py:validate:ERROR:'AGE' column data type does not match required data type. Expected int64:
+2023-09-24 23:30:19,262:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-24 23:30:19,263:upload_validator.py:validate:ERROR:No column 'AGE' in uploaded data:
+2023-09-24 23:30:19,264:upload_validator.py:validate:ERROR:'AGE' column data type does not match required data type. Expected int64:
+2023-09-24 23:44:26,939:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:46:59,169:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:53:49,404:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:54:24,073:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:54:28,203:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:55:01,885:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:55:32,907:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:56:24,741:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:56:46,012:streamlit_frontend.py:run:INFO:Session started:
+2023-09-24 23:58:21,529:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:01:37,797:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:02:46,661:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:03:05,028:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:03:05,028:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:03:13,757:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:03:49,977:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:04:29,301:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:04:29,301:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:04:32,742:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:04:35,744:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:06,228:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:06,230:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:06,236:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:05:12,511:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:12,513:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:12,515:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:05:12,517:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-25 00:05:12,592:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Logistic Regression, 
+Credit Card Default probability: 53.2873255815253, 
+Model pred time: 0.00021660000038536964, 
+total run time: 0.07315169999947102:
+2023-09-25 00:05:21,718:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:21,806:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:21,808:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:21,862:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2023-09-25 00:05:32,001:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:36,589:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:36,592:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:36,643:upload_validator.py:validate:ERROR:Column 'default.payment.next.month' not expected in uploaded data:
+2023-09-25 00:05:45,551:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:45,611:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:45,614:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:45,616:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:05:48,446:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:48,449:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:48,453:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:05:49,597:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:05:49,600:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:05:49,604:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:05:49,606:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-25 00:05:49,857:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Random Forest, 
+Credit Card Default probability: 89.0, 
+Model pred time: 0.003315800000564195, 
+total run time: 0.2491080999998303:
+2023-09-25 00:06:15,673:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:07:49,291:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:07:50,732:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:07:51,755:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:07:51,919:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:08:14,366:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:08:25,514:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:08:26,750:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:08:26,917:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:08:27,099:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:10:46,076:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:11:07,645:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:11:07,648:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:11:07,654:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:11:11,741:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:11:11,743:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:11:11,747:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:11:12,981:streamlit_frontend.py:run:INFO:Session started:
+2023-09-25 00:11:12,984:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-25 00:11:12,988:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-25 00:11:12,990:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-25 00:11:13,021:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Neural Network, 
+Credit Card Default probability: 91.9037520898361, 
+Model pred time: 0.0001376999998683459, 
+total run time: 0.03090509999947244:
+2023-09-26 03:54:49,291:upload_validator.py:validate:ERROR:Column 'IF' not expected in uploaded data:
+2023-09-26 03:54:49,297:upload_validator.py:validate:ERROR:No column 'AGE' in uploaded data:
+2023-09-26 03:54:49,299:upload_validator.py:validate:ERROR:'AGE' column data type does not match required data type. Expected int64:
+2023-09-27 11:42:04,174:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 11:42:04,175:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:04:39,427:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:04:39,430:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:04:39,435:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:23:14,340:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:23:14,342:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:23:14,347:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:23:14,349:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:23:14,474:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:23:23,732:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:23:23,734:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:23:23,736:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:23:23,738:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:23:23,754:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:23:26,666:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:23:26,668:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:23:26,671:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:23:29,235:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:23:29,238:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:23:29,243:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:23:29,245:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:23:29,260:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:26:22,332:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:26:22,335:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:26:22,339:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:26:23,369:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:26:23,372:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:26:23,375:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:26:23,377:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:26:23,568:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:31:25,845:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:31:25,847:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:31:25,850:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:31:25,853:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:31:25,889:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:35:26,056:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:35:26,058:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:35:26,062:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:35:26,064:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:35:26,087:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:35:29,385:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:35:29,388:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:35:29,392:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:35:29,394:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:35:29,402:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:35:51,637:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:35:51,639:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:35:51,642:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:35:51,643:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:35:51,651:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:37:09,530:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:37:09,532:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:37:09,535:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:37:09,537:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:37:09,556:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:37:23,258:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:37:23,260:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:37:23,265:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:37:23,266:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:37:23,275:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:38:29,135:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:38:29,137:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:38:29,140:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:38:29,141:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:38:29,150:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:39:18,455:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:39:18,458:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:39:18,462:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:39:18,464:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:39:18,495:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:39:40,251:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:39:40,252:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:39:40,255:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:39:40,257:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:39:40,287:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:42:01,788:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:42:01,791:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:42:01,794:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:42:01,795:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:42:01,809:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:42:19,529:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:42:19,531:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:42:19,534:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:42:20,831:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:42:20,834:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:42:20,838:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:42:20,840:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:42:21,023:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:43:49,631:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:43:49,633:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:43:49,635:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:43:49,638:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:43:49,841:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-27 12:44:19,526:streamlit_frontend.py:run:INFO:Session started:
+2023-09-27 12:44:19,528:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-27 12:44:19,531:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-27 12:44:19,532:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-27 12:44:19,608:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: float() argument must be a string or a real number, not 'NoneType':
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 86, in run
+    st.success(f"Probability of Credit Card default: {float(prediction):.2f}%")
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2023-09-28 23:43:48,000:streamlit_frontend.py:run:INFO:Session started:
+2023-09-28 23:44:25,226:streamlit_frontend.py:run:INFO:Session started:
+2023-09-28 23:44:25,228:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-28 23:44:25,236:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-28 23:44:54,384:streamlit_frontend.py:run:INFO:Session started:
+2023-09-28 23:44:54,388:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-28 23:44:54,391:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-28 23:44:55,546:streamlit_frontend.py:run:INFO:Session started:
+2023-09-28 23:44:55,549:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-28 23:44:55,555:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-28 23:44:55,556:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-28 23:44:55,622:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Neural Network, 
+Credit Card Default probability: 94.20636037704519, 
+Model pred time: 0.00013499998021870852, 
+total run time: 0.06476729997666553:
+2023-09-28 23:59:33,655:streamlit_frontend.py:run:INFO:Session started:
+2023-09-28 23:59:33,657:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-28 23:59:33,662:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-28 23:59:33,663:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-28 23:59:33,698:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Neural Network, 
+Credit Card Default probability: 94.20636037704519, 
+Model pred time: 0.00014939997345209122, 
+total run time: 0.033671799988951534:
+2023-09-28 23:59:36,767:streamlit_frontend.py:run:INFO:Session started:
+2023-09-29 00:30:02,314:streamlit_frontend.py:run:INFO:Session started:
+2023-09-29 00:30:08,533:streamlit_frontend.py:run:INFO:Session started:
+2023-09-29 00:30:46,453:streamlit_frontend.py:run:INFO:Session started:
+2023-09-29 00:30:46,457:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-29 00:30:46,461:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-29 00:30:54,175:streamlit_frontend.py:run:INFO:Session started:
+2023-09-29 00:30:54,177:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-29 00:30:54,181:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-29 00:30:58,277:streamlit_frontend.py:run:INFO:Session started:
+2023-09-29 00:30:58,280:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-09-29 00:30:58,283:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-09-29 00:30:58,285:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-09-29 00:30:58,603:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Random Forest, 
+Credit Card Default probability: 90.0, 
+Model pred time: 0.005673700012266636, 
+total run time: 0.31692560005467385:
+2023-10-12 15:53:46,100:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 17:31:30,611:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 17:32:01,951:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 17:32:01,953:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-10-12 17:32:01,961:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-10-12 17:32:05,721:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 17:32:05,724:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-10-12 17:32:05,729:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-10-12 17:32:05,730:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-10-12 17:32:50,537:streamlit_frontend.py:run:ERROR:An error occurred whilst attempting to call API: HTTPSConnectionPool(host='credit-card-predictor-api.onrender.com', port=443): Max retries exceeded with url: /predict (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021EF218E260>, 'Connection to credit-card-predictor-api.onrender.com timed out. (connect timeout=None)')):
+Traceback (most recent call last):
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connection.py", line 212, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x0000021EF218E260>, 'Connection to credit-card-predictor-api.onrender.com timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='credit-card-predictor-api.onrender.com', port=443): Max retries exceeded with url: /predict (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021EF218E260>, 'Connection to credit-card-predictor-api.onrender.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\src\streamlit_frontend.py", line 80, in run
+    response = requests.post(f"{deployment_server}/predict", json=data).json()
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "e:\Legacy Files\Documents\Py-Self-Learn\credit_card_default_prediction\.venv\lib\site-packages\requests\adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='credit-card-predictor-api.onrender.com', port=443): Max retries exceeded with url: /predict (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021EF218E260>, 'Connection to credit-card-predictor-api.onrender.com timed out. (connect timeout=None)'))
+2023-10-12 17:33:46,799:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 17:33:46,801:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-10-12 17:33:46,804:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-10-12 17:33:46,806:streamlit_frontend.py:run:INFO:Attempting API call:
+2023-10-12 17:33:50,031:streamlit_frontend.py:run:INFO:Prediction successful, 
+Model used: Logistic Regression, 
+Credit Card Default probability: 53.2873255815253, 
+Model pred time: 0.00039571200068166945, 
+total run time: 3.2233273000019835:
+2023-10-12 17:54:36,164:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 17:57:23,365:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 18:01:21,825:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 18:16:37,896:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 18:16:44,159:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 18:16:44,162:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-10-12 18:16:44,168:streamlit_frontend.py:run:INFO:Uploaded data validated:
+2023-10-12 18:17:32,003:streamlit_frontend.py:run:INFO:Session started:
+2023-10-12 18:17:32,005:streamlit_frontend.py:run:INFO:User data uploaded:
+2023-10-12 18:17:32,010:streamlit_frontend.py:run:INFO:Uploaded data validated:
