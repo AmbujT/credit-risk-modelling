@@ -141,20 +141,9 @@ Feel free to reach out to me if you have any issues using the platform
 
 Contributors names and contact info
 
-*Abraham Audu*
+*Ambuj Tripathi*
 
-* GitHub - [@the_abrahamaudu](https://github.com/theabrahamaudu)
-* LinkedIn - [@theabrahamaudu](https://www.linkedin.com/in/theabrahamaudu/)
-* Instagram - [@the_abrahamaudu](https://www.instagram.com/the_abrahamaudu/)
+* LinkedIn - (https://www.linkedin.com/in/ambuj-tripathi-35bb65269/)
 
-## Version History
 
-* See [commit change](https://github.com/theabrahamaudu/credit_card_default_predictor/commits/main)
-* See [release history](https://github.com/theabrahamaudu/credit_card_default_predictor/releases)
 
-## Acknowledgments
-
-* This project was inspired by the iNeuron internship portal
-* This [video](https://www.youtube.com/watch?v=kn5hVBR40eo) gave me a lot of guidance in building the models
-* Streamlit official documentation was handdy in setting up the file uploader
-* I got a lot of help from different websites in debugging at different stages (StackOverflow, etc)
